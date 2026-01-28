@@ -1,23 +1,33 @@
 # Project: Internal Cybersecurity Audit - Botium Toys
 
-## 🎯 Executive Summary
-I conducted an internal cybersecurity audit for Botium Toys to assess their current security posture as they prepare to scale their online presence. The audit focused on identifying gaps in controls and ensuring compliance with NIST CSF, PCI DSS, and GDPR standards.
+## 📌 Project Overview
+This project consists of a comprehensive internal cybersecurity audit for **Botium Toys**, a fictional company preparing to scale its online retail operations. The audit was conducted to identify vulnerabilities, assess risks, and ensure compliance with international security standards such as NIST CSF, PCI DSS, and GDPR.
 
-## 🔍 Key Findings & Vulnerabilities
-Based on the audit, the following critical vulnerabilities were identified:
-* [cite_start]**Access Control Issues:** Currently, all employees have access to internal data, including sensitive credit card information (SPII)[cite: 95].
-* [cite_start]**Weak Authentication:** Existing password policies are weak, and there is no centralized password management or Multi-Factor Authentication (MFA) in place[cite: 101, 102].
-* [cite_start]**Encryption Gaps:** Data encryption procedures are not currently implemented for securing credit card transactions or stored data[cite: 59, 98].
-* [cite_start]**Compliance Gaps:** The organization is currently non-compliant with GDPR (missing a 72-hour breach notification plan) and SOC (lack of established user access policies)[cite: 73, 81, 82].
+## 🎯 Scope and Goals
+* **Scope:** The entire security program, including employee equipment (desktops, laptops, smartphones), the internal network, and data retention systems.
+* **Goals:** Assess existing assets, complete a controls/compliance checklist, and provide recommendations to improve the company's security posture.
 
-## 💡 Top Recommendations
-To patch these vulnerabilities, I recommended the following priority actions:
-1. [cite_start]**Implement Least Privilege:** Restrict data access so employees only see what is necessary for their roles[cite: 97].
-2. [cite_start]**Deploy Encryption:** Ensure all PII/SPII is encrypted at rest and in transit[cite: 98, 100].
-3. [cite_start]**Strengthen Passwords:** Establish a Centralized Password Management System and enforce MFA[cite: 102].
-4. [cite_start]**Legacy System Maintenance:** Regularize maintenance for legacy systems to prevent easy exploitation[cite: 103].
+## ⚠️ Risk Assessment Findings
+* **Risk Score:** **8 / 10** (High)
+* **Primary Risks:** Inadequate management of assets and a lack of proper controls to meet U.S. and international regulations.
+* **Impact of Loss:** Rated as **High** regarding potential fines from governing bodies due to missing critical data security practices.
 
-## 🛠️ Skills Applied
-* [cite_start]Compliance Auditing (PCI DSS, GDPR, SOC) [cite: 50, 61, 77]
-* [cite_start]Risk Assessment [cite: 2]
-* NIST Cybersecurity Framework (CSF)
+## 🔍 Critical Gaps & Vulnerabilities
+Based on the audit, the following issues were identified:
+* **Access Control:** No "Least Privilege" or "Separation of Duties" policies are currently in place. All employees currently have access to sensitive PII/SPII and cardholder data.
+* **Data Security:** Encryption is not used for credit card information processed or stored locally. 
+* **Monitoring:** While a firewall and antivirus are present, there is **no Intrusion Detection System (IDS)** installed.
+* **Resilience:** There are currently **no disaster recovery plans** or critical data backups.
+* **Authentication:** Password policies are nominal and do not meet modern complexity requirements. There is no centralized password management or Multi-Factor Authentication (MFA).
+
+## 💡 Recommended Security Controls
+To ensure a secure transition to the large-scale online market, the following priority actions were recommended:
+1. **Implement Least Privilege & Separation of Duties:** Restrict access to sensitive data to authorized users only.
+2. **Deploy Encryption:** Use data encryption for all credit card transactions and stored PII/SPII.
+3. **MFA and Centralized Passwords:** Establish a system for Multi-Factor Authentication and stronger password complexity.
+4. **Regular Maintenance:** Create a schedule for monitoring and maintaining legacy systems to prevent exploitation.
+
+## 🛠️ Skills & Frameworks Applied
+* **NIST Cybersecurity Framework (CSF):** Focused on the "Identify" and "Protect" functions.
+* **Compliance Standards:** Evaluated against PCI DSS, GDPR, and SOC (Type 1 & 2).
+* **Technical Auditing:** Risk assessment, asset classification, and security control identification.
