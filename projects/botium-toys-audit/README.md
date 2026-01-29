@@ -1,7 +1,7 @@
 # Project: Internal Cybersecurity Audit - Botium Toys
 
 ## 📌 Project Overview
-This project consists of a comprehensive internal cybersecurity audit for **Botium Toys**, a fictional company preparing to scale its online retail operations. The audit was conducted to identify vulnerabilities, assess risks, and ensure compliance with international security standards such as NIST CSF, PCI DSS, and GDPR.
+This project consists of a comprehensive internal cybersecurity audit for **Botium Toys**, a fictional company preparing to scale its online retail operations which makes taking online payments an inportant part of their organisation, the company also clarifies its goal to expand in the European Union. The audit was conducted to identify vulnerabilities, assess risks, and ensure compliance with international security standards such as NIST CSF, PCI DSS, and GDPR.
 
 ## 🎯 Scope and Goals
 * **Scope:** The entire security program, including employee equipment (desktops, laptops, smartphones), the internal network, and data retention systems.
