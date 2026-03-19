@@ -37,5 +37,5 @@ I am following a structured path to master security operations and cloud securit
 ---
 
 ## 📫 Connect with Me
-* **LinkedIn:** 
-* **Email:** 
+* **LinkedIn:** https://www.linkedin.com/in/manan-singh-khanni/
+* **Email:** khannimanan@gmail.com
